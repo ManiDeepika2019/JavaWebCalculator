@@ -17,17 +17,19 @@
     <!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
 <dependency>
   
-  <distributionManagement>
-  <repository>
-    <id>releases</id>
-    <url>http://104.198.176.102:8081/nexus/content/repositories/releases</url>
-  </repository>
-</distributionManagement>
+ 
     <groupId>javax.servlet</groupId>
     <artifactId>servlet-api</artifactId>
     <version>2.5</version>
 </dependency>
   </dependencies>
+  
+   <distributionManagement>
+  <repository>
+    <id>releases</id>
+    <url>http://104.198.176.102:8081/nexus/content/repositories/releases</url>
+  </repository>
+</distributionManagement>
   <build>
     <finalName>WebAppCal</finalName>
   </build>
