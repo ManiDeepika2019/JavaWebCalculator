@@ -4,7 +4,11 @@
   <groupId>com.web.cal</groupId>
   <artifactId>WebAppCal</artifactId>
   <packaging>war</packaging>
-  <version>0.0.2</version>
+<<<<<<< HEAD
+  <version>0.0.5</version>
+=======
+  <version>0.0.5</version>
+>>>>>>> 89710c82b676481927421ec3b36812a521348e24
   <name>WebAppCal Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -16,11 +20,20 @@
     </dependency>
     <!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
 <dependency>
+  
+ 
     <groupId>javax.servlet</groupId>
     <artifactId>servlet-api</artifactId>
     <version>2.5</version>
 </dependency>
   </dependencies>
+  
+   <distributionManagement>
+  <repository>
+    <id>releases</id>
+    <url>http://35.239.12.178:8081/nexus/content/repositories/releases</url>
+  </repository>
+</distributionManagement>
   <build>
     <finalName>WebAppCal</finalName>
   </build>
